@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>2049 Game</title>
+  <link rel="stylesheet" href="/Pages/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
+
+</head>
+<body>
+    <div id="tsparticles"></div>
+
+  <div class="game-container">
+    <h1>2049</h1>
+    <div class="grid" id="grid"></div>
+    <div class="controls">
+      <button onclick="restartGame()">Restart</button>
+      <p id="status"></p>
+      <video autoplay muted loop id="bg-video">
+        <source src="/Assets/bg.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>      
+
+    </div>
+  </div>
+  <script src="/Pages/script.js"></script>
+</body>
+</html>
