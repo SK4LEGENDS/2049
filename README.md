@@ -95,7 +95,7 @@ Merge matching number tiles until you reach the **2049** tile.
 Here’s a sneak peek of the game in action:  
 *(Add your GIF or screenshot like below)*
 
-![2049 Gameplay Demo](demo/2049-pictures-demo.png)
+![2049 Gameplay Demo](pictures/2049-pictures-demo.png)
 
 ---
 
